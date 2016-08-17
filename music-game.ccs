@@ -1,0 +1,70 @@
+<Solution>
+  <PropertyGroup Name="music-game" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="game_finish">
+          <Image Name="black_zhezhao.png" />
+          <Image Name="defentiao.png" />
+          <Image Name="fanhui.png" />
+          <Image Name="fenxiang.png" />
+          <Image Name="lianjitiao.png" />
+          <Image Name="Misstiao.png" />
+          <Image Name="xiafangtiao.png" />
+          <Image Name="zaiweryibian.png" />
+        </Folder>
+        <Folder Name="game_scene">
+          <Image Name="animal1.png" />
+          <Image Name="animal2.png" />
+          <Image Name="changjing6.png" />
+          <Image Name="guidao.png" />
+          <Image Name="lianjiX.png" />
+          <Image Name="shengmingzhi.png" />
+          <Image Name="xingxing.png" />
+          <Image Name="zanting6.png" />
+        </Folder>
+        <Folder Name="game_splash">
+          <Image Name="splash.png" />
+          <Image Name="splash-star.png" />
+        </Folder>
+        <Folder Name="game_stop">
+          <Image Name="black_zhezhao.png" />
+          <Image Name="chongxinkaishi.png" />
+          <Image Name="fengexian.png" />
+          <Image Name="jixu.png" />
+        </Folder>
+        <Folder Name="guide">
+          <Image Name="bg1.jpg" />
+          <Image Name="dianji.png" />
+          <Image Name="dianjikuang.png" />
+          <Image Name="hand.png" />
+          <Image Name="paidakuang_press.png" />
+          <Image Name="perfect.png" />
+          <Image Name="phone.png" />
+          <Image Name="tiaoguo.png" />
+          <Image Name="zi1.png" />
+          <Image Name="zi4.png" />
+          <Image Name="zi5.png" />
+          <Image Name="zi6.png" />
+          <Image Name="zi7.png" />
+        </Folder>
+        <Folder Name="home">
+          <Image Name="bg.jpg" />
+          <Image Name="dong.png" />
+          <Image Name="fankuiyijian.png" />
+          <Image Name="gu.png" />
+          <Image Name="paishou.png" />
+          <Image Name="paishou-down.png" />
+          <Image Name="shangshuowaiquan.png" />
+          <Image Name="shouyedianji.png" />
+          <Image Name="shouyedianji-down.png" />
+        </Folder>
+        <Folder Name="scenes">
+          <Project Name="Home-scene.csd" Type="Scene" />
+          <Project Name="Splash-scene.csd" Type="Scene" />
+          <Project Name="GameScene-1.csd" Type="Scene" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

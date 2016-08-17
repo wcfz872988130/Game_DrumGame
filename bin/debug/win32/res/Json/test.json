@@ -1,0 +1,60 @@
+{
+    "descriptions": 
+	[
+        {
+            "description": 
+			{
+                "xpos": 250,
+                "ypos": 798,
+                "time": 0.4,
+                "effect": "move"
+            }
+        },
+        {
+            "description": 
+			{
+                "xpos": 250,
+                "ypos": 636,
+                "time": 0.4,
+                "effect": "jump"
+            }
+        },
+        {
+            "description": 
+			{
+                "xpos": 250,
+                "ypos": 474,
+                "time": 0.4,
+                "effect": "bezier"
+            }
+        },
+        {
+            "description": 
+			{
+                "xpos": 250,
+                "ypos": 312,
+                "time": 0.4,
+                "effect": "blink"
+            }
+        },
+        {
+            "description": 
+			{
+                "xpos": 250,
+                "ypos": 150,
+                "time": 0.4,
+                "effect": "tint"
+            }
+        },
+		{
+			"random":
+			{
+				"pos_random":150,
+				"time_random":0.1,
+				"effect_random":5
+			}
+		}
+		
+		
+    ]
+}

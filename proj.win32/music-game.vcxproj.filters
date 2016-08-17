@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{d4d6f30c-c70f-4961-a772-113fac8913bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{56874bc0-a19e-4d31-9511-869b61cc953c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entitys">
+      <UniqueIdentifier>{3aabfb87-f346-404e-9e6d-ea6f7ef25d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\home">
+      <UniqueIdentifier>{7fa0c756-be5b-4032-9f1d-370e20738e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\guide">
+      <UniqueIdentifier>{9ad817cf-2359-474e-8c68-a8a5471fcea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\game">
+      <UniqueIdentifier>{226c8c5d-5fb0-4aed-9bf1-3948a33311d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\splash">
+      <UniqueIdentifier>{fe73f034-e10d-4319-a0ac-715d088ee42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{d752aab5-5b07-4650-88f1-de88407de108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\Anima">
+      <UniqueIdentifier>{7b61361d-e0e8-4991-8f40-53e827a0f2e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameFinishLayer.cpp">
+      <Filter>src\scenes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\scenes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameStopLayer.cpp">
+      <Filter>src\scenes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Guide.cpp">
+      <Filter>src\scenes\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Home.cpp">
+      <Filter>src\scenes\home</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Splash.cpp">
+      <Filter>src\scenes\splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Audio.cpp">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DropObject.cpp">
+      <Filter>src\entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JsonMoveHandler.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataUtils.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\leaf.cpp">
+      <Filter>src\scenes\Anima</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameFinishLayer.h">
+      <Filter>src\scenes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\scenes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameStopLayer.h">
+      <Filter>src\scenes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Guide.h">
+      <Filter>src\scenes\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Home.h">
+      <Filter>src\scenes\home</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Splash.h">
+      <Filter>src\scenes\splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Audio.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DropObject.h">
+      <Filter>src\entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constant.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JsonMoveHandler.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataUtils.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\leaf.h">
+      <Filter>src\scenes\Anima</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
